@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: 'Hosted Agent'
+  vmImage: 'Default'
 
 steps:
 - task: NodeTool@0
