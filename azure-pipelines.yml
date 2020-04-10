@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: 'meraubuntu'
+  vmImage: 'default'
 
 steps:
 - task: NodeTool@0
